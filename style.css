@@ -2,6 +2,12 @@ h1, p {
   font-family: Lato;
 }
 
+.top{
+  text-align: center;
+  font-weight:bold;
+  color:green;
+}
+
 dashboard{
  float: left;
  width: 50%;
@@ -11,3 +17,4 @@ dashboard{
  float: right;
  width: 50%;
 }
+
