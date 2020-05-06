@@ -5,8 +5,8 @@ import Marker from './Marker';
 const AnyReactComponent = ({text}) => <div>{text}</div>;
 
 const SimpleMap = (props) => {
-    const [center, setCenter] = useState({lat: 28.7041, lng: 77.1025 });
-    const [zoom, setZoom] = useState(15);
+    const [center, setCenter] = useState({lat: 28.6448, lng: 	77.216721 });
+    const [zoom, setZoom] = useState(12);
     return (
         <div style={{ height: '100vh', width: '100%' }}>
         <GoogleMapReact
