@@ -14,7 +14,36 @@ dashboard{
 }
 
 .Map{
+ padding-top: 0px;
  float: right;
  width: 50%;
+}
+
+.button {
+  background-color: #33B8Ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.p1{
+  background: white;
+  flex: 95%;
+  padding-top: 10px;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.p2{
+  background: white;
+  flex: 5%;
+  padding-top: 10px;
+  padding-left: 10px;
+  overflow: auto;
 }
 

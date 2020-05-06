@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import { Pie } from 'react-chartjs-2';
+import * as chartjs from "chart.js";
+import { PieChart } from 'react-minimal-pie-chart';
 import SimpleMap from './SimpleMap';
 import Hello from './Hello';
 import './style.css';
@@ -28,10 +31,9 @@ class App extends Component {
     return (
       <div>
       <div class="top"><h2>Delhi Hospital Services</h2> </div>
-        <div class="dashboard"> 
-        </div>
-        <div class="Map">
-          {this.state.simpleMap?<SimpleMap/>:''}
+     
+        <div class="p2">
+        {this.state.simpleMap?<SimpleMap/>:''}
         </div>
       </div>
     );

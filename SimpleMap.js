@@ -28,36 +28,64 @@ const SimpleMap = (props) => {
           />
 
            <Marker
-            lat={14.3984}
-            lng={75.5583}
+            lat={28.6}
+            lng={77.2583}
             name="Covid Zone"
             color="red"
           />
 
            <Marker
-            lat={12.4435}
-            lng={45.3772}
+            lat={28.4}
+            lng={77.2772}
             name="Covid Zone"
             color="red"
           />
 
            <Marker
-            lat={19.7515}
-            lng={75.7139}
+            lat={28.67}
+            lng={77.7139}
+            name="Covid Zone"
+            color="red"
+          />
+
+          <Marker
+            lat={28.68}
+            lng={77.2139}
+            name="Covid Zone"
+            color="red"
+          />
+
+          <Marker
+            lat={28.67}
+            lng={77.2139}
+            name="Covid Zone"
+            color="red"
+          />
+
+          <Marker
+            lat={28.63}
+            lng={77.2139}
+            name="Covid free Zone"
+            color="green"
+          />
+
+          <Marker
+            lat={28.64}
+            lng={77.2139}
             name="Covid Zone"
             color="red"
           />
 
            <Marker
-            lat={25.168}
-            lng={72.9558}
+            lat={28.668}
+            lng={77.2558}
             name="Covid free Zone"
             color="green"
           />
 
            <Marker
-            lat={17.3850}
-            lng={80.9558}
+            lat={28.6640}
+            lng={77.2658}
             name="Quarantine Zone"
             color="violet"
           />
