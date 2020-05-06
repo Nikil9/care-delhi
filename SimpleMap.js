@@ -21,8 +21,8 @@ const SimpleMap = (props) => {
           />
 
           <Marker
-            lat={19.0168}
-            lng={78.4867}
+            lat={28.6448}
+            lng={77.216721}
             name="Risk Zone"
             color="blue"
           />
