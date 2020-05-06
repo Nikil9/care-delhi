@@ -27,7 +27,10 @@ class App extends Component {
     }
     return (
       <div>
-        <div>
+        <div class="dashboard"> 
+        Hello
+        </div>
+        <div class="Map">
           {this.state.simpleMap?<SimpleMap/>:''}
         </div>
       </div>
